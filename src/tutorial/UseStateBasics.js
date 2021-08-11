@@ -1,11 +1,21 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 
 function UseStateBasics() {
-    console.log(useState("Hola"));
+    const [day, setDay] = useState("Today is bad day")
+    const handleClick = () => {
+        setDay("Today is good day");
+    }
     return (
         <div>
-            
-        </div>
+            <>
+                <h1>{day}</h1>
+                <button type="button" className="btn" onClick={handleClick}>
+                change title
+                </button>
+               
+                
+            </>
+        </div >
     )
 }
 
