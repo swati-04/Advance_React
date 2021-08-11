@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import UseEffectBasics from './tutorial/UseEffectBasics';
+import Forms from './tutorial/Forms';
+
+// import UseEffectBasics from './tutorial/UseEffectBasics';
 // import UseStateCounter from './tutorial/UseStateCounter';
 // import UseStateErrorEx from './tutorial/useStateErrorEx';
 // import UseStateBasics from './tutorial/UseStateBasics';
@@ -8,13 +10,14 @@ import UseEffectBasics from './tutorial/UseEffectBasics';
 // import UseStateObject from './tutorial/UseStateObject';
 function App() {
   return (<div className="container">
-    <h2>Advance react JS</h2>
+    <h2>forms</h2>
     {/* <UseStateBasics/> */}
     {/* <UseStateArray /> */}
     {/* <UseStateObject />
     <UseStateCounter /> */}
-    <UseEffectBasics />
+    {/* <UseEffectBasics /> */}
     {/* <UseStateErrorEx/> */}
+    <Forms/>
   </div>
   );
 }
