@@ -1,21 +1,26 @@
-import React, { useState } from 'react'
+import React , {useState} from 'react'
 
 function UseStateErrorEx() {
-    let title = "random title"; //its initial value is random title
-    const handleClick = (b) => {
-        let a=b;
-        console.log(title);
-        title = "My name is Swati";
-    }
-    return (<React.Fragment>
-        <h2>{title}</h2>
-        <button type="button" className="btn" onClick={handleClick(200)}>
-            change title
-        </button>
-    </React.Fragment>
+    let title="Random Title"
 
-    );
-};
+    const handleClick = ()=>{
+        console.log(title);
+        title="My name is Swati";
+    }
+
+    return (
+        <React.Fragment>
+            <h2>{title}</h2>
+            <button type="button" className="btn" onClick={handleClick} >Change Title</button>
+        </React.Fragment>
+
+
+        // <div>
+        //     <h2>Use State Error Example</h2>
+        // </div>
+
+        
+    )
+}
 
 export default UseStateErrorEx
-
