@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Forms from './tutorial/Forms';
+// import Forms from './tutorial/Forms';
+import LearnJSON from './tutorial/LearnJSON';
 
 // import UseEffectBasics from './tutorial/UseEffectBasics';
 // import UseStateCounter from './tutorial/UseStateCounter';
@@ -10,14 +11,15 @@ import Forms from './tutorial/Forms';
 // import UseStateObject from './tutorial/UseStateObject';
 function App() {
   return (<div className="container">
-    <h2>forms</h2>
+    {/* <h2>forms</h2> */}
     {/* <UseStateBasics/> */}
     {/* <UseStateArray /> */}
     {/* <UseStateObject />
     <UseStateCounter /> */}
     {/* <UseEffectBasics /> */}
     {/* <UseStateErrorEx/> */}
-    <Forms/>
+    {/* <Forms/> */}
+    <LearnJSON/>
   </div>
   );
 }
