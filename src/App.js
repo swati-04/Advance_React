@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+import Index from './tutorial/Reducer/index';
 // import Forms from './tutorial/Forms';
-import LearnJSON from './tutorial/LearnJSON';
+// import LearnJSON from './tutorial/LearnJSON';
 
 // import UseEffectBasics from './tutorial/UseEffectBasics';
 // import UseStateCounter from './tutorial/UseStateCounter';
@@ -19,7 +20,8 @@ function App() {
     {/* <UseEffectBasics /> */}
     {/* <UseStateErrorEx/> */}
     {/* <Forms/> */}
-    <LearnJSON/>
+    {/* <LearnJSON/> */}
+    <Index/>
   </div>
   );
 }
