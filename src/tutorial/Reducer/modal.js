@@ -1,10 +1,12 @@
 import React from 'react'
 
-function Modal() {
+function Modal(modalContent) {
     return (
-        <div>
-            
+        <>
+        <div className='modal'>
         </div>
+        <p>I am modal</p>
+        </>
     )
 }
 
