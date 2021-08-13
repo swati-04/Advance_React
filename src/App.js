@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import PropDrilling from './tutorial/Prop-Drilling';
+import ContextAPI from './tutorial/Context';
+// import PropDrilling from './tutorial/Prop-Drilling';
 // import ReactRouterDom from './tutorial/React-Router';
 
 // import Index from './tutorial/Reducer/index';
@@ -24,7 +25,7 @@ function App() {
     {/* <UseStateErrorEx/> */}
     {/* <Forms/> */}
     {/* <LearnJSON/> */}
-    <PropDrilling/>
+    <ContextAPI/>
     {/* <ReactRouterDom/> */}
   </div>
   );
