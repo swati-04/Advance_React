@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import Index from './tutorial/Reducer/index';
+import ReactRouterDom from './tutorial/React-Router';
+
+// import Index from './tutorial/Reducer/index';
 // import Forms from './tutorial/Forms';
 // import LearnJSON from './tutorial/LearnJSON';
 
@@ -21,7 +23,7 @@ function App() {
     {/* <UseStateErrorEx/> */}
     {/* <Forms/> */}
     {/* <LearnJSON/> */}
-    <Index/>
+    <ReactRouterDom/>
   </div>
   );
 }
