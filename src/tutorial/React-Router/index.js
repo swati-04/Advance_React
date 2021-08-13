@@ -5,29 +5,28 @@ import Error from './Error'
 import NavBar from './NavBar'
 import People from './People'
 import Person from './Person'
-import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 function ReactRouterDom() {
     return (
         <Router>
-            React Router
-            <Route path="/">
-                <Home/>
-            </Route>
-            <Route path="/about">
-                <About/>
-            </Route>
-            <Route path="/error">
-                <Error/>
-            </Route>
-            <Route path="/people">
-                <People/>
-            </Route>
-            <Route path="/person">
-                <Person/>
-            </Route>
-            <Route path="/Navbar">
-                <NavBar/>
-            </Route>
+                <NavBar />
+            <Switch>
+                <Route exact path="/">
+                    <Home />
+                </Route>
+                <Route path="/about">
+                    <About />
+                </Route>
+
+                <Route path="/people">
+                    <People />
+                </Route>
+                <Route path="/*">
+                    <Error />
+                </Route>
+            </Switch>
+
+
         </Router>
     )
 }
