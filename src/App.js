@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import ReactRouterDom from './tutorial/React-Router';
+import PropDrilling from './tutorial/Prop-Drilling';
+// import ReactRouterDom from './tutorial/React-Router';
 
 // import Index from './tutorial/Reducer/index';
 // import Forms from './tutorial/Forms';
@@ -23,7 +24,8 @@ function App() {
     {/* <UseStateErrorEx/> */}
     {/* <Forms/> */}
     {/* <LearnJSON/> */}
-    <ReactRouterDom/>
+    <PropDrilling/>
+    {/* <ReactRouterDom/> */}
   </div>
   );
 }
